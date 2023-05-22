@@ -8,7 +8,7 @@ public:
     {
         weight = 1;
         last_error = 1.1;
-        smoothing = 0.001;
+        smoothing = 0.01;
     }
 
     float get_last_error()
@@ -52,20 +52,28 @@ public:
         {   
             iteractions++;
             train(task, ans);
+            cout << "Epoh: " << iteractions << " | Weight: " << get_weight() << endl;
         }
-        cout << "Epoh: " << iteractions << " | Weight: " << get_weight() << endl;
     }
 
     bool check_training()
     {
-        if (last_error > smoothing || last_error < -smoothing)
+        if (weight == last_error)
         {
             return true;
         }
         else
         {
-            return false;
+            if (last_error > smoothing || last_error < -smoothing)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
+        
     }
 
 private:
