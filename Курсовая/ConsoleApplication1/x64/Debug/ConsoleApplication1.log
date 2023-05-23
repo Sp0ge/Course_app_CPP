@@ -1,6 +1,0 @@
-﻿  ConsoleApplication1.cpp
-C:\Users\deepb\OneDrive\Документы\GitHub\Course_app_CPP\Курсовая\ConsoleApplication1\ConsoleApplication1.cpp(10,1): warning C4305: =: усечение из "double" в "float"
-C:\Users\deepb\OneDrive\Документы\GitHub\Course_app_CPP\Курсовая\ConsoleApplication1\ConsoleApplication1.cpp(11,1): warning C4305: =: усечение из "double" в "float"
-C:\Users\deepb\OneDrive\Документы\GitHub\Course_app_CPP\Курсовая\ConsoleApplication1\ConsoleApplication1.cpp(101,31): warning C4305: аргумент: усечение из "double" в "float"
-C:\Users\deepb\OneDrive\Документы\GitHub\Course_app_CPP\Курсовая\ConsoleApplication1\ConsoleApplication1.cpp(117,35): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  ConsoleApplication1.vcxproj -> C:\Users\deepb\OneDrive\Документы\GitHub\Course_app_CPP\Курсовая\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

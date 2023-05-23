@@ -1,2 +1,0 @@
-C:\Users\deepb\OneDrive\Документы\GitHub\Course_app_CPP\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
-C:\Users\deepb\OneDrive\Документы\GitHub\Course_app_CPP\Курсовая\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
