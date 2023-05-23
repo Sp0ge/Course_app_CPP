@@ -6,10 +6,10 @@
 Сборка проекта
 
 ```powershell
-  C:\Neuron> g++ neuron.cpp compiled_neuron.exe
+  C:\Neuron> g++ .\Neuron.cpp -o compiled_neuron.exe -x c++
 ```
 
 Запуск проекта
 ```powershell
-  C:\Neuron> compiled_neuron.exe
+  C:\Neuron> .\compiled_neuron.exe
 ```
